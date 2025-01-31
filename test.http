@@ -1,0 +1,13 @@
+POST http://localhost:3000/author-api/author
+Content-Type: application/json
+
+{
+  "role": "author",
+  "firstName": "author1",
+  "lastName": "author1",
+  "email": "author1@mail.com",
+  "profileImageUrl": "author image",
+  "isActive": true
+}
+
+###
